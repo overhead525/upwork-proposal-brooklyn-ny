@@ -6,7 +6,7 @@ import "../styles/globals.css";
 
 Amplify.configure({
   Auth: {
-    region: "eu-central-1", //! Konfiguration
+    region: "us-east-1", //! Konfiguration
     userPoolId: process.env.USER_POOL_ID,
     userPoolWebClientId: process.env.USER_POOL_CLIENT_ID,
 
