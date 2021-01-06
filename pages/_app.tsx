@@ -2,6 +2,8 @@ import { AppProps } from "next/app";
 import Amplify from "@aws-amplify/core";
 import Auth from "@aws-amplify/auth";
 
+import "../styles/globals.css";
+
 Amplify.configure({
   Auth: {
     region: "eu-central-1", //! Konfiguration
