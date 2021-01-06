@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "pem-script": "yarn prepare-pems --region us-east-1 --userPoolId us-east-1_FKja6MpZu"
   },
   "dependencies": {
     "aws-cognito-next": "^3.0.0",
