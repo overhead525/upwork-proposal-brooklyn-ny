@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "pem-script": "yarn prepare-pems --region us-east-1 --userPoolId us-east-1_FKja6MpZu"
+    "pem-script": "yarn prepare-pems --region us-east-1 --userPoolId us-east-1_8450U25HQ"
   },
   "dependencies": {
     "@aws-amplify/auth": "^3.4.16",
