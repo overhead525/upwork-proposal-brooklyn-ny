@@ -12,7 +12,6 @@ import styles from "../styles/Home.module.css";
 
 const Home = (props: { initialAuth: AuthTokens }) => {
   const auth = useAuth(props.initialAuth);
-  console.log(auth);
   const { login, logout } = useAuthFunctions();
 
   return (
