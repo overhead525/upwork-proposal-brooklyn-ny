@@ -18,12 +18,24 @@ const Home = (props: { initialAuth: AuthTokens }) => {
     <>
       <React.Fragment>
         {auth ? (
-          <button type="button" onClick={() => logout()}>
+          <button
+            type="button"
+            onClick={() => {
+              console.log("logging out");
+              logout();
+            }}
+          >
             Logout
           </button>
         ) : (
           <React.Fragment>
-            <button type="button" onClick={() => login()}>
+            <button
+              type="button"
+              onClick={() => {
+                console.log("logging in");
+                login();
+              }}
+            >
               Sign In
             </button>
           </React.Fragment>
