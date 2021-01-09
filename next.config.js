@@ -23,7 +23,7 @@ module.exports = (phase) => {
           USER_POOL_CLIENT_ID: process.env.PROD_USER_POOL_CLIENT_ID,
           REDIRECT_SIGN_IN: "https://upwork-proposal-brooklyn-ny.vercel.app/token",
           REDIRECT_SIGN_OUT: "https://upwork-proposal-brooklyn-ny.vercel.app",
-          AUTH_COOKIE_DOMAIN: "https://upwork-proposal-brooklyn-ny.vercel.app",
+          AUTH_COOKIE_DOMAIN: "upwork-proposal-brooklyn-ny",
         },
       };
   }
